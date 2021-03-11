@@ -1,0 +1,109 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+    color: #666;
+}
+
+/* sliderpic */
+.aboutparalax{
+    background-repeat: no-repeat !important; 
+    
+    background-size: cover  !important;
+    width: 100vw;
+    
+    
+
+    
+    background-image:linear-gradient(black, rgba(0, 0, 0, 0.5)), url(images/2.jpg)!important;
+    
+    position: relative!important;
+    
+    
+    background-position: center!important;
+    background-attachment: fixed!important;
+    min-height: 40% !important;
+}
+
+.homeheadlink{
+    color: whitesmoke; 
+    display: inline-block; 
+    text-align: end;
+    font-size: 15px;
+    
+    margin: auto; 
+    padding: 20px;
+}
+
+.gthanUpdated{
+    display: inline-block; 
+    padding: 10px;
+}
+.homehover :hover{
+    color: #ffb200;
+
+}
+
+
+
+.gthan1 {
+    line-height: 30px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+  
+.mylist {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+  
+.mylist:before {
+    font-weight: 900;
+    color: #ffb200;
+    content: ">";
+    padding-right: 5px;
+}
+
+
+.bgimgdown{
+    
+    
+
+    background-repeat: no-repeat !important; 
+    
+    background-size: cover  !important;
+        
+
+    
+    background-image:linear-gradient(black, rgba(0, 0, 0, 0.5)), url(images/orignal3.jpg)!important;
+    
+    position: relative!important;
+    
+    
+    background-position: center!important;
+    background-attachment: fixed!important;
+    min-height: 50% !important;
+     
+}
+@media screen and (min-width:576px){
+    .bgimgdown{
+    
+    
+        background-repeat: no-repeat !important; 
+    
+        background-size: cover  !important;
+            
+    
+        
+        background-image:linear-gradient(black, rgba(0, 0, 0, 0.5)), url(images/orignal3.jpg)!important;
+        
+        position: relative!important;
+        
+        
+        background-position: center!important;
+        background-attachment: fixed!important;
+        min-height: 100%;
+        
+         
+    }
+}
